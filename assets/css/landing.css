@@ -1,0 +1,16 @@
+body{
+    background-color:cadetblue;
+    border-radius: 50%;
+} 
+.imagen img{ 
+margin-left:6%;
+width:500px;
+height:600px;
+    display:inline;
+}
+.main { 
+    margin-top:30%;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    color:darkcyan;
+}

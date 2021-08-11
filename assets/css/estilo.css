@@ -1,0 +1,49 @@
+body{
+    background-color:red;
+}
+.titulo{
+    font-family: 'Fredoka One', cursive;
+}
+h1{
+    font-size:39px;
+    color:#6E7271;
+}
+.texto{
+    float:none;
+	text-align:center;
+}
+button{
+    margin-left: 10px;
+}
+.main {
+    margin-top:19%;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    color: rgb(32, 1, 1);
+}
+.secondary{
+  font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    margin-left:20px;
+}
+.imagen img{
+margin-left:6%;
+width:500px;
+height:700px;
+    display:inline;
+}
+.social-media{
+    height:25px; 
+    width:25px; 
+    font-size: 30px;
+    margin-left:40px; 
+    position:relative;
+    top:0%; 
+    color:gray;
+    
+}
+footer
+{
+    margin-top:70px;
+    float: right;
+}

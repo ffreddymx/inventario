@@ -1,0 +1,96 @@
+body{
+    background-color:#D4EDE0;
+}
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    margin: 0;
+    color:#06605A;
+    margin-left:5px;
+}
+.navbar{
+    background-color:#00B8AE;
+   padding: 0;
+    border: 0px;
+}
+.inicio{
+    margin-left:8px; 
+}
+.menu img{
+    border: groove 2px #C2FFFB;  
+   border-radius:77% 20% / 10%;
+    margin-top:15%; 
+} 
+p{
+    text-align: center;
+} 
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#F5EFFF;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color:#818181;
+  display: block;
+  transition: 0.3s; 
+}
+
+.sidebar a:hover {
+  color:#00bfa5;
+    text-decoration: none;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; 
+} 
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color:#00B8AE;
+  color: white;
+  margin-left: 40px;
+  padding: 10px 15px;
+  border:none;  
+outline:none; 
+}
+.openbtn:hover{
+  background-color:#00B8AE; 
+  outline: none;
+    border: none; 
+} 
+.openbtn:focus{
+  background-color:#00B8AE; 
+  outline: none;
+    border: none; 
+} 
+#main {
+  transition: margin-left .5s;
+  padding:0px;
+  background-color:#00B8AE;
+    margin-top:0px;
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.fluid{
+    background-color: forestgreen;
+}
+.btn{
+    background-color:red;
+}
